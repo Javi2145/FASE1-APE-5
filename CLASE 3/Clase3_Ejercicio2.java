@@ -14,10 +14,10 @@ public class Clase3_Ejercicio2 {
 
         BufferedWriter bw = null;
         try {
-            // 1. BufferedWriter enlazado con FileWriter
+            
             bw = new BufferedWriter(new FileWriter("materias.txt"));
 
-            // 2 y 3. Escribir cada asignatura en una línea independiente
+
             for (String materia : materias) {
                 bw.write(materia);
                 bw.newLine();
@@ -26,7 +26,7 @@ public class Clase3_Ejercicio2 {
         } catch (IOException e) {
             System.out.println("Error de escritura: " + e.getMessage());
         } finally {
-            // 4. Liberar recursos
+           
             try {
                 if (bw != null) {
                     bw.close();
