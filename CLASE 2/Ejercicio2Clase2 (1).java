@@ -8,7 +8,7 @@ public class Ejercicio2Clase2 {
         Scanner sc = new Scanner(System.in);
         String continuar;
 
-        // El segundo parámetro "true" activa el modo append
+    
         try (BufferedWriter bw = new BufferedWriter(new FileWriter("productos.txt", true))) {
             do {
                 System.out.print("Nombre del producto: ");
