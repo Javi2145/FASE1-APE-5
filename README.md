@@ -65,10 +65,4 @@ Uso de `mkdirs()`, bloques `try-catch-finally` y cierre manual de flujos.
 - Modo *append* para conservar datos existentes
 - Manejo de excepciones (`IOException`, `try-catch`, `try-with-resources`, `finally`)
 - Lectura de datos por consola con `Scanner`
-
-## Cómo ejecutar
-
-```bash
-javac NombreDelArchivo.java
-java NombreDeLaClase
-```
+}
